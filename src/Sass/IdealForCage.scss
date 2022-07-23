@@ -1,0 +1,15 @@
+.ideal-for-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .card-deck{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ideal-for{
+        text-align: center;
+        margin: 20px;
+        font-size: 30px;
+    }
+}

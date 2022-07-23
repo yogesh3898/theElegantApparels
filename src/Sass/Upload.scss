@@ -1,0 +1,62 @@
+.upload{
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+    
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    progress{
+        margin-top: 30px;
+    }
+    .image-preview-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 40px;
+        top: 20%;
+        z-index: 1;
+        border: 1px solid darkgray;
+        background-color: lightgray;
+        button{
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .upload-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid darkgray;
+        padding: 20px;
+        .upload-again{
+            cursor: pointer;
+        }
+        .form{
+            .button,button{
+                margin-top: 10px;
+                float: right;
+            }
+        }
+        .form-group{
+            display: flex;
+            flex-direction: column;
+        }
+        .form-label{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        select{
+            height: 30px;
+            border-radius: 5px;
+        }
+    }
+    
+    
+    
+}

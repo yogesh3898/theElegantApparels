@@ -1,0 +1,40 @@
+.product-cover{
+    .link{
+        text-decoration: none;
+        color: white;
+    }
+    .card{
+        &:hover{
+            width: 335px;
+            z-index: 1;
+        }
+    }
+    width: 330px;
+    height: 330px;
+    margin: 20px;
+    .card-header{
+        background-color: rgb(67, 62, 62);
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .card-title{
+            margin: 0;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            
+        }
+    }
+    .card-body{
+        padding: 0;
+    }
+    .card-footer{
+        color: white;
+        font-size: 22px;
+        background-color: rgb(67, 62, 62);
+        display: flex;
+        justify-content: center;
+        
+    }
+}

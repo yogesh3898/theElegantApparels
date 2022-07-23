@@ -1,0 +1,44 @@
+.link{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: white;
+    }
+}
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    .cart-number{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .user-name{
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .navbar-brand{
+        font-size: 28px;
+    }
+    .navbar-collapse{
+        justify-content: space-between;
+        font-size: 22px;
+        @media (max-width:991px){
+        min-width: 250px;
+        position: absolute;
+        top: 67px;
+        left: 0;
+        width: 30%;
+        padding: 30px;
+        background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+        }
+    }
+}
+
+
+

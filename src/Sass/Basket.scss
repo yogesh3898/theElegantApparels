@@ -1,0 +1,42 @@
+.basket-container{
+    img{
+        width: 300px;
+        height: auto;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    .checkout{
+        flex: 0.4;
+        padding: 20px;
+        background-color: rgb(246, 238, 238);
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+        .checkout-body{
+            font-size: 24px;
+            text-align: center;
+        }
+        button{
+            margin-top: 10px;
+        }
+        
+    }
+    .basket{
+        flex: 0.6;
+        .card-deck{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .card{
+                margin: 20px;
+                .card-footer{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
