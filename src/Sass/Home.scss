@@ -10,6 +10,7 @@
     margin-left: 10px;
     margin-right: 10px;
     padding: 30px;
+    padding-left: 0;
     .card-deck{
         display: flex;
         flex-wrap: wrap;
@@ -17,6 +18,7 @@
         flex-grow: 1;
         .home-product-cover{
             margin: 20px;
+            margin-left: 0;
         }
     }
 }
